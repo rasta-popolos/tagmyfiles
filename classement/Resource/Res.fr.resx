@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add_group" xml:space="preserve">
+    <value>Ajouter un groupe</value>
+  </data>
+  <data name="Add_tag" xml:space="preserve">
+    <value>Ajouter un Tag</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Supprimer</value>
+  </data>
+  <data name="Delete_error" xml:space="preserve">
+    <value>Suppression annuler</value>
+  </data>
+  <data name="Delete_group" xml:space="preserve">
+    <value>Suppression</value>
+  </data>
+  <data name="Edit_error" xml:space="preserve">
+    <value>Erreur lors de l'édition</value>
+  </data>
+  <data name="Empty_group" xml:space="preserve">
+    <value>Le nom du groupe est vide</value>
+  </data>
+  <data name="Group" xml:space="preserve">
+    <value>Groupe</value>
+  </data>
+  <data name="Group_empty" xml:space="preserve">
+    <value>Le nom du groupe est invalide</value>
+  </data>
+  <data name="Group_exist" xml:space="preserve">
+    <value>Ce nom existe déjà</value>
+  </data>
+  <data name="Loading" xml:space="preserve">
+    <value>Chargement...</value>
+  </data>
+  <data name="Load_end" xml:space="preserve">
+    <value>Chargement terminé</value>
+  </data>
+  <data name="ParentId_rempty" xml:space="preserve">
+    <value>Le groupe parent n'est ps défini</value>
+  </data>
+  <data name="Prompt_delete_group" xml:space="preserve">
+    <value>Voulez-vous supprimer ce groupe ?</value>
+  </data>
+  <data name="Refresh_group" xml:space="preserve">
+    <value>Rafraîchir la liste</value>
+  </data>
+  <data name="Rename" xml:space="preserve">
+    <value>Renomer</value>
+  </data>
+  <data name="Scan_directory" xml:space="preserve">
+    <value>Scanner le repertoire</value>
+  </data>
+  <data name="File_name" xml:space="preserve">
+    <value>Nom</value>
+  </data>
+  <data name="File_size" xml:space="preserve">
+    <value>Taille</value>
+  </data>
+  <data name="Refresh" xml:space="preserve">
+    <value>Rafraîchir</value>
+  </data>
+  <data name="Tools" xml:space="preserve">
+    <value>Outils</value>
+  </data>
+  <data name="Filter_tag" xml:space="preserve">
+    <value>Filtrer avec les tags sélectionnés</value>
+  </data>
+  <data name="Detail" xml:space="preserve">
+    <value>Détail</value>
+  </data>
+  <data name="List" xml:space="preserve">
+    <value>Liste</value>
+  </data>
+  <data name="List_display" xml:space="preserve">
+    <value>Affichage</value>
+  </data>
+  <data name="test" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="Extension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="Open_foder" xml:space="preserve">
+    <value>Ouvrir le dossier</value>
+  </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favoris</value>
+  </data>
+  <data name="Video_resolution" xml:space="preserve">
+    <value>Résolution</value>
+  </data>
+  <data name="Video_resolution_FHD_resolution" xml:space="preserve">
+    <value>FHD</value>
+  </data>
+  <data name="Video_resolution_HD_resolution" xml:space="preserve">
+    <value>HD</value>
+  </data>
+  <data name="Video_resolution_High_resolution" xml:space="preserve">
+    <value>Haute</value>
+  </data>
+  <data name="Video_resolution_Low_resolution" xml:space="preserve">
+    <value>Basse</value>
+  </data>
+  <data name="Video_resolution_Medium_resolution" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="Video_resolution_Poor_resolution" xml:space="preserve">
+    <value>Très basse</value>
+  </data>
+  <data name="Video_length_Average_length" xml:space="preserve">
+    <value>Moyen</value>
+  </data>
+  <data name="Video_length_Long_length" xml:space="preserve">
+    <value>Longue</value>
+  </data>
+  <data name="Video_length_Short_length" xml:space="preserve">
+    <value>Court</value>
+  </data>
+  <data name="Video_length_VeryLong_length" xml:space="preserve">
+    <value>Très longue</value>
+  </data>
+  <data name="Video_length_VeryShort_length" xml:space="preserve">
+    <value>Très court</value>
+  </data>
+  <data name="Video" xml:space="preserve">
+    <value>Vidéo</value>
+  </data>
+  <data name="Video_length" xml:space="preserve">
+    <value>Durée</value>
+  </data>
+  <data name="Clear_list" xml:space="preserve">
+    <value>Effacer la liste</value>
+  </data>
+  <data name="Large_icon" xml:space="preserve">
+    <value>Grandes icônes</value>
+  </data>
+  <data name="Small_icon" xml:space="preserve">
+    <value>Petites icônes</value>
+  </data>
+  <data name="Switch_Tag_Mod" xml:space="preserve">
+    <value>Contient [tous/au moins un] des tags</value>
+  </data>
+  <data name="Tile" xml:space="preserve">
+    <value>Mosaique</value>
+  </data>
+  <data name="Directory" xml:space="preserve">
+    <value>Repertoire</value>
+  </data>
+  <data name="Directory_add" xml:space="preserve">
+    <value>Ajouter un repertoire...</value>
+  </data>
+  <data name="Open_directory" xml:space="preserve">
+    <value>Ouvrir...</value>
+  </data>
+  <data name="Filter" xml:space="preserve">
+    <value>Filtrer</value>
+  </data>
+  <data name="Typefile_Audios" xml:space="preserve">
+    <value>Audios</value>
+  </data>
+  <data name="Typefile_Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Typefile_Images" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Typefile_Text_document" xml:space="preserve">
+    <value>Documents textes</value>
+  </data>
+  <data name="Typefile_Videos" xml:space="preserve">
+    <value>Vidéos</value>
+  </data>
+  <data name="DB_Intransaction" xml:space="preserve">
+    <value>Base de données occupée</value>
+  </data>
+  <data name="Max_number" xml:space="preserve">
+    <value>lignes affichées max, filtrer pour trouver un fichier</value>
+  </data>
+  <data name="Delete_directory" xml:space="preserve">
+    <value>Suppression</value>
+  </data>
+  <data name="Prompt_delete_directory" xml:space="preserve">
+    <value>Voulez vous supprimer le tag de ce repertoire ?</value>
+  </data>
+  <data name="Refresh_specific" xml:space="preserve">
+    <value>Rafraîchir</value>
+  </data>
+  <data name="Options" xml:space="preserve">
+    <value>Options...</value>
+  </data>
+  <data name="Scan_videos" xml:space="preserve">
+    <value>Scanner les fichiers vidéos</value>
+  </data>
+  <data name="Reload_default_tag" xml:space="preserve">
+    <value>Mettre à jour les tags par défaut</value>
+  </data>
+  <data name="Join_video" xml:space="preserve">
+    <value>Fusionner les vidéos</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Rotate_left" xml:space="preserve">
+    <value>Pivoter vers la gauche</value>
+  </data>
+  <data name="Rotate_right" xml:space="preserve">
+    <value>Pivoter vers la droite</value>
+  </data>
+  <data name="Video_tools" xml:space="preserve">
+    <value>Outils vidéos</value>
+  </data>
+  <data name="Typefile_Compresse" xml:space="preserve">
+    <value>Fichiers compressés</value>
+  </data>
+</root>

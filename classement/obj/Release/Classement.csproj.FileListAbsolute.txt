@@ -1,0 +1,13 @@
+D:\projets\csharp\classement\classement\bin\Release\classement.exe.config
+D:\projets\csharp\classement\classement\bin\Release\classement.exe
+D:\projets\csharp\classement\classement\bin\Release\classement.pdb
+D:\projets\csharp\classement\classement\bin\Release\fr\classement.resources.dll
+D:\projets\csharp\classement\classement\bin\Release\System.Data.SQLite.dll
+D:\projets\csharp\classement\classement\bin\Release\System.Data.SQLite.xml
+D:\projets\csharp\classement\classement\obj\Release\classement.Form1.resources
+D:\projets\csharp\classement\classement\obj\Release\classement.Properties.Resources.resources
+D:\projets\csharp\classement\classement\obj\Release\classement.Resource.Res.fr.resources
+D:\projets\csharp\classement\classement\obj\Release\Classement.csproj.GenerateResource.Cache
+D:\projets\csharp\classement\classement\obj\Release\fr\classement.resources.dll
+D:\projets\csharp\classement\classement\obj\Release\classement.exe
+D:\projets\csharp\classement\classement\obj\Release\classement.pdb

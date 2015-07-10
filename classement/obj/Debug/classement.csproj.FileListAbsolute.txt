@@ -1,0 +1,30 @@
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\bin\Debug\classement.exe.config
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\bin\Debug\classement.exe
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\bin\Debug\classement.pdb
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\obj\Debug\classement.Form1.resources
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\obj\Debug\classement.Properties.Resources.resources
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\obj\Debug\classement.csproj.GenerateResource.Cache
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\obj\Debug\classement.exe
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\obj\Debug\classement.pdb
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\bin\Debug\System.Data.SQLite.dll
+c:\users\popolos\documents\visual studio 2012\Projects\classement\classement\bin\Debug\System.Data.SQLite.xml
+D:\projets\csharp\classement\classement\bin\Debug\classement.exe.config
+D:\projets\csharp\classement\classement\obj\Debug\classement.exe
+D:\projets\csharp\classement\classement\obj\Debug\classement.pdb
+D:\projets\csharp\classement\classement\bin\Debug\classement.exe
+D:\projets\csharp\classement\classement\bin\Debug\classement.pdb
+D:\projets\csharp\classement\classement\bin\Debug\System.Data.SQLite.xml
+D:\projets\csharp\classement\classement\obj\Debug\classement.Form1.resources
+D:\projets\csharp\classement\classement\obj\Debug\classement.Properties.Resources.resources
+D:\projets\csharp\classement\classement\obj\Debug\classement.csproj.GenerateResource.Cache
+D:\projets\csharp\classement\classement\obj\Debug\classement.Resource.Res.fr.resources
+D:\projets\csharp\classement\classement\bin\Debug\fr\classement.resources.dll
+D:\projets\csharp\classement\classement\obj\Debug\fr\classement.resources.dll
+D:\projets\csharp\classement\classement\obj\Debug\Classement.csprojResolveAssemblyReference.cache
+D:\projets\csharp\classement\classement\bin\Debug\EntityFramework.dll
+D:\projets\csharp\classement\classement\bin\Debug\EntityFramework.SqlServer.dll
+D:\projets\csharp\classement\classement\bin\Debug\System.Data.SQLite.dll
+D:\projets\csharp\classement\classement\bin\Debug\System.Data.SQLite.EF6.dll
+D:\projets\csharp\classement\classement\bin\Debug\System.Data.SQLite.Linq.dll
+D:\projets\csharp\classement\classement\bin\Debug\EntityFramework.xml
+D:\projets\csharp\classement\classement\bin\Debug\EntityFramework.SqlServer.xml
