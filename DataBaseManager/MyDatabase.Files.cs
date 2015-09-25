@@ -552,7 +552,8 @@ namespace DatabaseManager
             }
             else
             {
-                sql += " ORDER BY LOWER(name)";
+                //sql += " ORDER BY LOWER(name)";
+                sql += " ORDER BY id DESC";
             }
             return this.SelectFiles(sql, aParams);
         }
