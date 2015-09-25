@@ -1,2 +1,13 @@
 classement/bin/*
+classement/obj/*
+
 packages/*
+
+DataBaseManager/bin/*
+DataBaseManager/obj/*
+
+MyUtils/bin/*
+MyUtils/obj/*
+
+MyVideos/bin/*
+MyVideos/obj/*
