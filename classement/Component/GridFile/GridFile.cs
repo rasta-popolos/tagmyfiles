@@ -523,6 +523,11 @@ namespace TagMyFiles.Component
 
             int maxSize = this.Db.GetConfValue("gridFile_ListSize").ToInt();
 
+            // Si return if main dir not found
+            if(! Directory.Exists(this.Db.DIR)) {
+                StatusEvent.FireStatusError(this, statusEvent, " Directory (" + this.Db.DIR + ") not found");
+                return ;
+            }
             this.Clear();
             
             this.currentFIlter = aFilters;
