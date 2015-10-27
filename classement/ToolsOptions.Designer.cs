@@ -98,7 +98,7 @@
             // 
             // tabPage1
             // 
-            this.tabPage1.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Window;
             this.tabPage1.Controls.Add(this.label1);
             this.tabPage1.Controls.Add(this.gridFile_ListSize);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);

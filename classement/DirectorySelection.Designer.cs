@@ -33,6 +33,7 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.source_textBox = new System.Windows.Forms.TextBox();
@@ -46,7 +47,6 @@
             this.addDirectory = new System.Windows.Forms.Button();
             this.folderBrowserDialog = new System.Windows.Forms.FolderBrowserDialog();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -109,6 +109,17 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Détails";
             // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(113, 275);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(110, 23);
+            this.button5.TabIndex = 7;
+            this.button5.Text = "Supprimer";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // button3
             // 
             this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -135,6 +146,7 @@
             // 
             this.source_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.source_textBox.BackColor = System.Drawing.SystemColors.Window;
             this.source_textBox.Location = new System.Drawing.Point(86, 83);
             this.source_textBox.Name = "source_textBox";
             this.source_textBox.ReadOnly = true;
@@ -146,7 +158,7 @@
             this.description_TextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.description_TextBox.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.description_TextBox.BackColor = System.Drawing.SystemColors.Window;
             this.description_TextBox.Location = new System.Drawing.Point(6, 125);
             this.description_TextBox.Name = "description_TextBox";
             this.description_TextBox.Size = new System.Drawing.Size(335, 145);
@@ -158,7 +170,7 @@
             this.directory_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.directory_textBox.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.directory_textBox.BackColor = System.Drawing.SystemColors.Window;
             this.directory_textBox.Location = new System.Drawing.Point(86, 56);
             this.directory_textBox.Name = "directory_textBox";
             this.directory_textBox.ReadOnly = true;
@@ -170,7 +182,7 @@
             this.name_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.name_textBox.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.name_textBox.BackColor = System.Drawing.SystemColors.Window;
             this.name_textBox.Location = new System.Drawing.Point(86, 31);
             this.name_textBox.Name = "name_textBox";
             this.name_textBox.Size = new System.Drawing.Size(255, 20);
@@ -244,17 +256,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(368, 378);
             this.panel1.TabIndex = 4;
-            // 
-            // button5
-            // 
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.Location = new System.Drawing.Point(113, 275);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(110, 23);
-            this.button5.TabIndex = 7;
-            this.button5.Text = "Supprimer";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // DirectorySelection
             // 

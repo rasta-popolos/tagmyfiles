@@ -5,3 +5,10 @@ D:\projets\csharp\classement\MyVideos\bin\Debug\MyUtils.pdb
 D:\projets\csharp\classement\MyVideos\obj\Debug\MyVideos.csprojResolveAssemblyReference.cache
 D:\projets\csharp\classement\MyVideos\obj\Debug\MyVideos.dll
 D:\projets\csharp\classement\MyVideos\obj\Debug\MyVideos.pdb
+D:\projets\csharp\tagmyfiles\MyVideos\bin\Debug\MyVideos.dll
+D:\projets\csharp\tagmyfiles\MyVideos\bin\Debug\MyVideos.pdb
+D:\projets\csharp\tagmyfiles\MyVideos\bin\Debug\MyUtils.dll
+D:\projets\csharp\tagmyfiles\MyVideos\bin\Debug\MyUtils.pdb
+D:\projets\csharp\tagmyfiles\MyVideos\obj\Debug\MyVideos.csprojResolveAssemblyReference.cache
+D:\projets\csharp\tagmyfiles\MyVideos\obj\Debug\MyVideos.dll
+D:\projets\csharp\tagmyfiles\MyVideos\obj\Debug\MyVideos.pdb

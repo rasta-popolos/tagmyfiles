@@ -3,3 +3,8 @@ D:\projets\csharp\classement\MyUtils\bin\Debug\MyUtils.pdb
 D:\projets\csharp\classement\MyUtils\obj\Debug\MyUtils.dll
 D:\projets\csharp\classement\MyUtils\obj\Debug\MyUtils.pdb
 D:\projets\csharp\classement\MyUtils\obj\Debug\MyUtils.csprojResolveAssemblyReference.cache
+D:\projets\csharp\tagmyfiles\MyUtils\bin\Debug\MyUtils.dll
+D:\projets\csharp\tagmyfiles\MyUtils\bin\Debug\MyUtils.pdb
+D:\projets\csharp\tagmyfiles\MyUtils\obj\Debug\MyUtils.csprojResolveAssemblyReference.cache
+D:\projets\csharp\tagmyfiles\MyUtils\obj\Debug\MyUtils.dll
+D:\projets\csharp\tagmyfiles\MyUtils\obj\Debug\MyUtils.pdb
