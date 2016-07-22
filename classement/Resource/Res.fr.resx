@@ -330,4 +330,7 @@
   <data name="Typefile_Compresse" xml:space="preserve">
     <value>Fichiers compressés</value>
   </data>
+  <data name="Typefile_NA" xml:space="preserve">
+    <value>N/A</value>
+  </data>
 </root>

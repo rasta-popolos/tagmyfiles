@@ -66,24 +66,26 @@ namespace DatabaseManager
 
             // http://www.youneeditall.com/web-design-and-development/file-extensions.html
             // Init filt_type data
-            sql = "INSERT INTO file_type (name, extension) VALUES ('Videos', '.usm,.sfd,.aep,.fcp,.rms,.psh,.scm,.sbk,.trp,.dir,.piv,.veg,.dzm,.3gp,.mswmm,.wlmp,.wp3,.webm,.dzp,.mpeg,.ntp,.amc,.bdmv,.dzt,.gfp,.ivr,.m21,.mk3d,.mproj,.mvp,.nuv,.rdb,.rmp,.rv,.screenflow,.swt,.vcpf,.viewlet,.wpl,.dnc,.meta,.wm,.bik,.mkv,.swf,.avi,.m4v,.srt,.m2p,.prproj,.mani,.rec,.msdvd,.tp,.vob,.scc,.bnp,.gvi,.vro,.wmv,.aepx,.bin,.fbr,.dcr,.nvc,.ts,.swi,.ifo,.mpg,.ism,.amx,.mp4,.infovid,.cpi,.mnv,.vsp,.playlist,.kmv,.vp6,.mts,.asf,.hdmov,.pds,.3gp2,.pac,.trec,.vc1,.vgz,.wmx,.wve,.bu,.spl,.mmv,.vp3,.vpj,.mp4,.mob,.mov,.bdm,.xvid,.dat,.flv,.dcr,.3g2,.r3d,.stx,.yuv,.890,.avchd,.dmx,.m1pg,.ogm,.roq,.ttxt,.f4f,.ivf,.k3g,.lsx,.lvix,.mvc,.par,.qt,.vcr,.w32,.f4v,.3mm,.dav,.ogv,.smv,.264,.camproj,.dvdmedia,.fcproject,.ismv,.otrkey,.sqz,.tix,.clpi,.f4p,.fli,.hdv,.rmd,.rsx,.thp,.inp,.m15,.mpeg4,.dvr,.video,.dxr,.lrv,.ced,.mvp,.wmd,.vid,.h264,.divx,.aetx,.vep,.db2,.m2t,.dv4,.mod,.rmvb,.sfera,.mxf,.3gpp,.pmf,.ajp,.rm,.camrec,.str,.dash,.ale,.avp,.bsf,.dmsm,.dream,.imovieproj,.moi,.3p2,.aaf,.aec,.arcut,.avb,.avv,.bdt3,.bmc,.cine,.cip,.cmmp,.cmmtpl,.cmrec,.cst,.d2v,.d3v,.dce,.dck,.dmsd,.dmss,.dpa,.evo,.eyetv,.fbz,.flc,.flh,.fpdx,.ftc,.gcs,.gifv,.gts,.hkm,.imoviemobile,.imovieproject,.ircp,.ismc,.izz,.izzy,.jss,.jts,.jtv,.kdenlive,.m21,.m2ts,.m2v,.mgv,.mj2,.mp21,.mpgindex,.mpls,.mpv,.mse,.mtv,.mvd,.mve,.mxv,.ncor,.nsv,.ogx,.photoshow,.plproj,.ppj,.pro,.prtl,.pxv,.qtl,.qtz,.rcd,.rum,.rvid,.rvl,.sdv,.sedprj,.seq,.sfvidcap,.siv,.smi,.smk,.stl,.svi,.tda3mt,.tivo,.tod,.tp0,.tpd,.tpr,.tsp,.tvlayer,.tvshow,.usf,.vbc,.vcv,.vdo,.vdr,.vfz,.vlab,.vtt,.wcp,.wmmp,.wvx,.xej,.xesc,.xfl,.xlmv,.xml,.y4m,.zm1,.zm2,.zm3,.lrec,.mp4v,.mpe,.mys,.aqt,.cvc,.gom,.mpv2,.orv,.rmv,.ssm,.zeg,.zmv,.dv,.box,.dpg,.tvs,.mpl,.arf,.rcproject,.smil,.60d,.moff,.tdt,.dvr-ms,.bmk,.edl,.snagproj,.amv,.dv-avi,.eye,.mjp,.mp21,.pgi,.avs,.int,.mp2v,.scn,.ismclip,.avs,.evo,.smi,.m4e,.mpg2,.vivo,.vf,.movie,.3gpp2,.psb,.irf,.asx,.axm,.cmproj,.dmsd3d,.dvx,.ezt,.ffm,.mqv,.mvy,.prel,.vp7,.xel,.aet,.anx,.avc,.avd,.awlive,.axv,.bdt2,.bs4,.bvr,.byu,.camv,.clk,.cmv,.cx3,.ddat,.dlx,.dmb,.dmsm3d,.exo,.fbr,.fcarch,.ffd,.flx,.g64,.gvp,.imovielibrary,.iva,.jmv,.ktn,.m1v,.m2a,.m4u,.mjpg,.mpsub,.mvex,.osp,.pns,.pro4dvd,.pro5dvd,.proqc,.pssd,.pva,.qtch,.qtindex,.qtm,.rp,.rts,.sbt,.sml,.theater,.tid,.tvrecording,.vem,.vfw,.vix,.vs4,.vse,.wot,.yog,.787,.mvb,.pjs,.ssf,.wtv,.mpl,.xmv,.dif,.vft,.vmlt,.anim,.grasp,.modd,.moov,.pvr,.vmlf,.am,.bix,.cel,.dsy,.gl,.ivs,.lsf,.m75,.mpeg1,.mpf,.msh,.nut,.pmv,.rmd,.rts,.scm,.sec,.tdx,.vdx,.viv,')";
+            sql = "INSERT INTO file_type (name, extension) VALUES ('Videos', '.usm,.sfd,.aep,.fcp,.rms,.psh,.scm,.sbk,.trp,.dir,.piv,.veg,.dzm,.3gp,.mswmm,.wlmp,.wp3,.webm,.dzp,.mpeg,.ntp,.amc,.bdmv,.dzt,.gfp,.ivr,.m21,.mk3d,.mproj,.mvp,.nuv,.rdb,.rmp,.rv,.screenflow,.swt,.vcpf,.viewlet,.wpl,.dnc,.meta,.wm,.bik,.mkv,.swf,.avi,.m4v,.srt,.m2p,.prproj,.mani,.rec,.msdvd,.tp,.vob,.scc,.bnp,.gvi,.vro,.wmv,.aepx,.bin,.fbr,.dcr,.nvc,.ts,.swi,.ifo,.mpg,.ism,.amx,.mp4,.infovid,.cpi,.mnv,.vsp,.playlist,.kmv,.vp6,.mts,.asf,.hdmov,.pds,.3gp2,.pac,.trec,.vc1,.vgz,.wmx,.wve,.bu,.spl,.mmv,.vp3,.vpj,.mp4,.mob,.mov,.bdm,.xvid,.dat,.flv,.dcr,.3g2,.r3d,.stx,.yuv,.890,.avchd,.dmx,.m1pg,.ogm,.roq,.ttxt,.f4f,.ivf,.k3g,.lsx,.lvix,.mvc,.par,.qt,.vcr,.w32,.f4v,.3mm,.dav,.ogv,.smv,.264,.camproj,.dvdmedia,.fcproject,.ismv,.otrkey,.sqz,.tix,.clpi,.f4p,.fli,.hdv,.rmd,.rsx,.thp,.inp,.m15,.mpeg4,.dvr,.video,.dxr,.lrv,.ced,.mvp,.wmd,.vid,.h264,.divx,.aetx,.vep,.db2,.m2t,.dv4,.mod,.rmvb,.sfera,.mxf,.3gpp,.pmf,.ajp,.rm,.camrec,.str,.dash,.ale,.avp,.bsf,.dmsm,.dream,.imovieproj,.moi,.3p2,.aaf,.aec,.arcut,.avb,.avv,.bdt3,.bmc,.cine,.cip,.cmmp,.cmmtpl,.cmrec,.cst,.d2v,.d3v,.dce,.dck,.dmsd,.dmss,.dpa,.evo,.eyetv,.fbz,.flc,.flh,.fpdx,.ftc,.gcs,.gifv,.gts,.hkm,.imoviemobile,.imovieproject,.ircp,.ismc,.izz,.izzy,.jss,.jts,.jtv,.kdenlive,.m21,.m2ts,.m2v,.mgv,.mj2,.mp21,.mpgindex,.mpls,.mpv,.mse,.mtv,.mvd,.mve,.mxv,.ncor,.nsv,.ogx,.photoshow,.plproj,.ppj,.pro,.prtl,.pxv,.qtl,.qtz,.rcd,.rum,.rvid,.rvl,.sdv,.sedprj,.seq,.sfvidcap,.siv,.smi,.smk,.stl,.svi,.tda3mt,.tivo,.tod,.tp0,.tpd,.tpr,.tsp,.tvlayer,.tvshow,.usf,.vbc,.vcv,.vdo,.vdr,.vfz,.vlab,.vtt,.wcp,.wmmp,.wvx,.xej,.xesc,.xfl,.xlmv,.xml,.y4m,.zm1,.zm2,.zm3,.lrec,.mp4v,.mpe,.mys,.aqt,.cvc,.gom,.mpv2,.orv,.rmv,.ssm,.zeg,.zmv,.dv,.box,.dpg,.tvs,.mpl,.arf,.rcproject,.smil,.60d,.moff,.tdt,.dvr-ms,.bmk,.edl,.snagproj,.amv,.dv-avi,.eye,.mjp,.mp21,.pgi,.avs,.int,.mp2v,.scn,.ismclip,.avs,.evo,.smi,.m4e,.mpg2,.vivo,.vf,.movie,.3gpp2,.psb,.irf,.asx,.axm,.cmproj,.dmsd3d,.dvx,.ezt,.ffm,.mqv,.mvy,.prel,.vp7,.xel,.aet,.anx,.avc,.avd,.awlive,.axv,.bdt2,.bs4,.bvr,.byu,.camv,.clk,.cmv,.cx3,.ddat,.dlx,.dmb,.dmsm3d,.exo,.fbr,.fcarch,.ffd,.flx,.g64,.gvp,.imovielibrary,.iva,.jmv,.ktn,.m1v,.m2a,.m4u,.mjpg,.mpsub,.mvex,.osp,.pns,.pro4dvd,.pro5dvd,.proqc,.pssd,.pva,.qtch,.qtindex,.qtm,.rp,.rts,.sbt,.sml,.theater,.tid,.tvrecording,.vem,.vfw,.vix,.vs4,.vse,.wot,.yog,.787,.mvb,.pjs,.ssf,.wtv,.mpl,.xmv,.dif,.vft,.vmlt,.anim,.grasp,.modd,.moov,.pvr,.vmlf,.am,.bix,.cel,.dsy,.gl,.ivs,.lsf,.m75,.mpeg1,.mpf,.msh,.nut,.pmv,.rmd,.rts,.scm,.sec,.tdx,.vdx,.viv,.mp2,')";
             this.QueryMainDb(sql);
 
             sql = "INSERT INTO file_type (name, extension) VALUES ('Audios', '.aif,.iff,.m3u,.m4a,.mid,.mp3,.mpa,.ra,.wav,.wma,')";
             this.QueryMainDb(sql);
 
-            sql = "INSERT INTO file_type (name, extension) VALUES ('Documents', '.pdf,.doc,.docx,.log,.msg,.pages,.rtf,.wpd,.wps,.efx,.gbr,.key,.pps,.ppt,.pptx,.sdf,.tax2010,.vcf,')";
+            sql = "INSERT INTO file_type (name, extension) VALUES ('Documents', '.xls,.xlsx,.pdf,.doc,.docx,.log,.msg,.pages,.rtf,.wpd,.wps,.efx,.gbr,.key,.pps,.ppt,.pptx,.sdf,.tax2010,.vcf,')";
             this.QueryMainDb(sql);
 
             sql = "INSERT INTO file_type (name, extension) VALUES ('Text_document', '.xml,.txt,.csv,')";
             this.QueryMainDb(sql);
 
-            sql = "INSERT INTO file_type (name, extension) VALUES ('Images', '.bmp,.gif,.jpg,.jepg,.png,.psd,.pspimage,.thm,.tif,.yuv,')";
+            sql = "INSERT INTO file_type (name, extension) VALUES ('Images', '.bmp,.gif,.jpg,.jpeg,.png,.psd,.pspimage,.thm,.tif,.yuv,')";
             this.QueryMainDb(sql);
 
             sql = "INSERT INTO file_type (name, extension) VALUES ('Compresse', '.zip,.rar,.7z,.gz,.iso,.zoo,.ace,.arc,.arj,.lzh,.tgz')";
             this.QueryMainDb(sql);
 
+            sql = "INSERT INTO file_type (id, name, extension) VALUES (99, 'NA', '.')";
+            this.QueryMainDb(sql);
         }
 
         /// <summary>
@@ -214,6 +216,25 @@ namespace DatabaseManager
             return res[0];
         }
 
+        /// <summary>
+        /// Reccup les infos d'un type de fichier
+        /// </summary>
+        /// <param name="fileId"></param>
+        /// <returns></returns>
+        public Hashtable GetAllFileTypeMain()
+        {
+            string sql = @"SELECT * FROM file_type";
+            List<Hashtable> res = this.SelectMainDb(sql);
+            Hashtable ret = new Hashtable();
+            String ext = "";
+            foreach (Hashtable tag in res)
+            {
+                ext += tag["extension"];
+            }
+            ret["extension"] = ext;
+            return ret;
+        }
+
         private int _defaultDirectory = -1;
 
         /// <summary>
@@ -334,7 +355,7 @@ namespace DatabaseManager
         /// <returns></returns>
         public List<Hashtable> GetFileType()
         {
-            string sql = @"SELECT * FROM file_type ORDER BY name";
+            string sql = @"SELECT * FROM file_type ORDER BY id";
             return this.SelectMainDb(sql);
         }
 

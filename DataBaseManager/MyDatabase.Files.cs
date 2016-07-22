@@ -440,8 +440,8 @@ namespace DatabaseManager
 
             if (fileType > 0)
             {
-                Hashtable f = this.GetFileTypeMain(fileType);
-                aParams["fileType"] = f["extension"].ToString() + ",";
+                    Hashtable f = this.GetFileTypeMain(fileType);
+                    aParams["fileType"] = f["extension"].ToString() + ",";
             }
 
             foreach (string tag in aTags) 
@@ -528,7 +528,16 @@ namespace DatabaseManager
                 }
                 if (fileType > 0)
                 {
-                    where.Add("CharIndex(ext.name || ',', @fileType) > 0");
+                    if (fileType == 99)
+                    {
+                        Hashtable f = this.GetAllFileTypeMain();
+                        aParams["fileType"] = f["extension"].ToString() + ",";
+                        where.Add("CharIndex(ext.name || ',', @fileType) <= 0");
+                    }
+                    else
+                    {
+                        where.Add("CharIndex(ext.name || ',', @fileType) > 0");
+                    }
                 }
 
                 if (where.Count > 0)
