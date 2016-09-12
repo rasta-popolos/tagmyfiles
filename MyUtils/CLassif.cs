@@ -17,6 +17,7 @@ namespace MyUtils
             aListeSeuils.Add(long.Parse("100").KilobytesToBytes());
             aListeSeuils.Add(long.Parse("500").KilobytesToBytes());
             aListeSeuils.Add(long.Parse("1").MegabytesToBytes());
+            aListeSeuils.Add(long.Parse("5").MegabytesToBytes());
             aListeSeuils.Add(long.Parse("10").MegabytesToBytes());
             aListeSeuils.Add(long.Parse("20").MegabytesToBytes());
             aListeSeuils.Add(long.Parse("50").MegabytesToBytes());
@@ -34,6 +35,7 @@ namespace MyUtils
             aListeSeuils.Add(long.Parse("3").GigabytesToBytes());
             aListeSeuils.Add(long.Parse("4").GigabytesToBytes());
             aListeSeuils.Add(long.Parse("5").GigabytesToBytes());
+            aListeSeuils.Add(long.Parse("10").GigabytesToBytes());
 
             return aListeSeuils;
         }

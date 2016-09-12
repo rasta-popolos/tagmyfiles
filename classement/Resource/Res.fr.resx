@@ -333,4 +333,7 @@
   <data name="Typefile_NA" xml:space="preserve">
     <value>N/A</value>
   </data>
+  <data name="Video_resolution_UHD_resolution" xml:space="preserve">
+    <value>UHD</value>
+  </data>
 </root>

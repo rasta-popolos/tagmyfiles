@@ -147,6 +147,11 @@ namespace DatabaseManager
                     {
                         long resolution = long.Parse(aSize["width"].ToString()) * long.Parse(aSize["height"].ToString());
 
+                        // UHD resolution 2160
+                        if (resolution >= (3840 * 2160))
+                        {
+                            this.addGroupFiles(this.getGroupIdFromTag("video_resolution_uhd"), aFileId);
+                        }
                         // FHD resolution 1080
                         if (resolution == (1920 * 1080))
                         {

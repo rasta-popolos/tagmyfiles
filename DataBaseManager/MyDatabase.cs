@@ -229,6 +229,7 @@ namespace DatabaseManager
                     this.InitInsertGroup("Video_resolution_High_resolution", groupVideoResolution, "video_resolution_high", 1, "> 800 x 600");
                     this.InitInsertGroup("Video_resolution_HD_resolution", groupVideoResolution, "video_resolution_hd", 1, "1280 * 720");
                     this.InitInsertGroup("Video_resolution_FHD_resolution", groupVideoResolution, "video_resolution_fhd", 1, "1920 * 1080");
+                    this.InitInsertGroup("Video_resolution_UHD_resolution", groupVideoResolution, "video_resolution_uhd", 1, "3840 * 2160");
 
                 // Insert Video Length node
                 int groupVideoLength = this.InitInsertGroup("Video_length", videoId, "video_length", 0, "");
